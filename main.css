@@ -65,11 +65,10 @@ img {
     }
     img {
         padding: 0px 5px;
+        max-width: 85vw;
+        max-height: 85vh;
     }
     .image-nav {
-        margin: 5px auto;
-        padding: 0px 5px;
-        max-width: 6vw;
-        max-height: 6vh;
+        display:none;
     }
 }
