@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Photos &middot; Moooease</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/jnv2vkj.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <div class="header"><a href="https://moooease.me">Mueez Ahmad</a></div>
+    <div class="photos" id="next">
+        <div><img src="images/_DSF2784.jpg"></div>
+        <div><img src="images/_DSF2797.jpg"></div>
+        <div><img src="images/_DSF2081.jpg"></div>
+        <div><img src="images/_DSF2077.jpg"></div>
+        <div><img src="images/_DSF1869-2.jpg"></div>
+        <div><img src="images/_DSF1853-2.jpg"></div>
+        <div><img src="images/_DSF2088-2.jpg"></div>
+        <div><img src="images/_DSF1673-2.jpg"></div>
+        <div><img src="images/_DSF1732.jpg"></div>
+        <div><img src="images/_DSF1441.jpg"></div>
+        <div><img src="images/_DSF1380.jpg"></div>
+        <div><img src="images/_DSF1422-2.jpg"></div>
+        <div><img src="images/IMG_4742.jpg"></div>
+        <div><img src="images/IMG_4725.jpg"></div>
+        <div><img src="images/IMG_4590.jpg"></div>
+        <div><img src="images/IMG_4587.jpg"></div>
+        <div><img src="images/IMG_4518.jpg"></div>
+        <div><img src="images/IMG_4479.jpg"></div>
+        <div><img src="images/IMG_4435.jpg"></div>
+        <div><img src="images/IMG_4376.jpg"></div>
+        <div><img src="images/IMG_4359.jpg"></div>
+        <div><img src="images/IMG_4287.jpg"></div>
+        <div><img src="images/IMG_4212.jpg"></div>
+        <div><img src="images/IMG_4153.jpg"></div>
+        <div><img src="images/IMG_4083.jpg"></div>
+        <div><img src="images/IMG_9437.jpg"></div>
+        <div><img src="images/IMG_9295.jpg"></div>
+        <div><img src="images/IMG_9263.jpg"></div>
+        <div><img src="images/IMG_8920-2.jpg"></div>
+        <div><img src="images/IMG_8299.jpg"></div>
+        <div><img src="images/IMG_8190.jpg"></div>
+        <div><img src="images/IMG_8017.jpg"></div>
+        <div><img src="images/IMG_6517.jpg"></div>
+        <div><img src="images/IMG_6298.jpg"></div>
+        <div><img src="images/IMG_6294.jpg"></div>
+        <div><img src="images/IMG_6100.jpg"></div>
+        <div><img src="images/IMG_6089.jpg"></div>
+        <div><img src="images/IMG_0461.jpg"></div>
+        <div><img src="images/IMG_0435.jpg"></div>
+        <div><img src="images/IMG_0427.jpg"></div>
+        <div><img src="images/IMG_0403.jpg"></div>
+        <div><img src="images/IMG_0026.jpg"></div>
+        <div><img src="images/IMG_9940.jpg"></div>
+        <div><img src="images/IMG_8938.jpg"></div>
+        <div><img src="images/IMG_8937.jpg"></div>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.photos').slick({
+                arrows: false,
+                dots: false,
+                infinite: true,
+                speed: 300,
+                fade: true,
+                cssEase: 'linear',
+                accessibility: true
+            });
+            $("#next").click(function () {
+                $('.photos').slick('slickNext');
+            });
+        });
+    </script>
+</body>
+
+</html>
