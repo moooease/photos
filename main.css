@@ -6,25 +6,25 @@
     cursor: grab;
 }
 
-html,
-body {
+html, body {
     margin: 0px auto;
     font-family: "sofia-pro", sans-serif;
     line-height: 1.5;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
+    text-transform: uppercase;
     color: #1f1e1e;
 }
 
 body {
     padding-top: 20px;
     height: 100%;
-    background-color: #ececec;
+    background-color: #ffffff;
 }
 
 a {
     text-decoration: none;
-    letter-spacing: 0px;
+    letter-spacing: -1px;
     color: #1f1e1e;
     cursor: -webkit-pointer;
     cursor: pointer;
@@ -42,56 +42,34 @@ a:hover {
 }
 
 .photos {
-    margin: 60px auto;
+    margin: 20px auto 10px auto;
 }
 
 img {
     margin: 0px auto;
     padding: 0px 30px;
-    max-width: 900px;
-    max-height: 800px;
+    max-width: 78vw;
+    max-height: 78vh;
 }
 
-@media (max-width:2560px) {
-    img {
-        max-width: 1900px;
-        max-height: 1800px;
-    }
-}
-
-@media (max-width:1440px) {
-    img {
-        max-width: 1200px;
-        max-height: 1700px;
-    }
-}
-
-@media (max-width:1024px) {
-    img {
-        max-width: 800px;
-        max-height: 1300px;
-    }
-}
-
-@media (max-width:768px) {
-    img {
-        max-width: 600px;
-        max-height: 1000px;
-    }
+.image-nav {
+    margin: 10px auto;
+    padding: 0px 10px;
+    max-width: 6vw;
+    max-height: 6vh;
 }
 
 @media (max-width:426px) {
-    img {
-        padding: 0px 10px;
-        max-width: 350px;
-        max-height: 800px;
+    html, body {
+        font-size: 16px;
     }
-}
-
-@media (max-width:376px) {
     img {
-        padding: 0px 10px;
-        max-width: 300px;
-        max-height: 800px;
+        padding: 0px 5px;
+    }
+    .image-nav {
+        margin: 5px auto;
+        padding: 0px 5px;
+        max-width: 6vw;
+        max-height: 6vh;
     }
 }
