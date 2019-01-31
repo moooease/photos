@@ -11,8 +11,8 @@ html, body {
     font-family: "sofia-pro", sans-serif;
     line-height: 1.5;
     font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
+    /* font-weight: 700; */
+    /* text-transform: uppercase; */
     color: #1f1e1e;
 }
 
