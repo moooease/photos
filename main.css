@@ -6,7 +6,8 @@
     cursor: grab;
 }
 
-html, body {
+html,
+body {
     margin: 0px auto;
     font-family: "sofia-pro", sans-serif;
     line-height: 1.5;
@@ -60,8 +61,12 @@ img {
 }
 
 @media (max-width:426px) {
-    html, body {
+    html,
+    body {
         font-size: 16px;
+    }
+    .photos {
+        margin: 8px auto;
     }
     img {
         padding: 0px 5px;
@@ -69,6 +74,9 @@ img {
         max-height: 85vh;
     }
     .image-nav {
-        display:none;
+        margin: 5px auto;
+        padding: 0px 5px;
+        max-width: 11vw;
+        max-height: 11vh;
     }
 }
