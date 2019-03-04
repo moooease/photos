@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #4e7893;
+  color: #1440d1;
 }
 
 .header {
@@ -95,7 +95,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.96);
   z-index: 2;
 }
 
